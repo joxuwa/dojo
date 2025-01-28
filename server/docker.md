@@ -18,15 +18,3 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
-
-# How To Set Up SSH For Access
-```sh
-# Create .ssh Folder
-mkdir -p ~/.ssh
-
-# Generate SSH Key
-ssh-keygen -t rsa -b 4096
-
-# Show the SSH Key
-cat ~/.ssh/id_rsa.pub
-```
