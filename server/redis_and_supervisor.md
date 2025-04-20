@@ -46,7 +46,7 @@ command=docker exec [app_container] php artisan queue:work redis --sleep=3 --tri
 autostart=true
 autorestart=true
 numprocs=1
-user=www-data
+user=root
 redirect_stderr=true
 stdout_logfile=/var/log/supervisor/[app_name]-worker.log
 ```
