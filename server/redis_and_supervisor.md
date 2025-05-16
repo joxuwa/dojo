@@ -59,3 +59,15 @@ sudo supervisorctl reread
 sudo supervisorctl update
 sudo supervisorctl start [app_name]-worker:*
 ```
+
+Cek status supervisor
+```bash
+sudo supervisorctl status
+```
+
+Restart supervisor
+```bash
+sudo supervisorctl reread
+sudo supervisorctl update
+sudo supervisorctl restart [app_name]-worker:*
+```
