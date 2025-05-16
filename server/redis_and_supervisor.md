@@ -1,5 +1,7 @@
 # Install Redis & Supervisor
 ## Install Redis
+Jika ingin menggunakan docker untuk redis, tidak perlu melakukan step dibawah ini. Bisa langsung Install Supervisor.
+
 ```bassh
 sudo apt update
 sudo apt install redis-server -y
