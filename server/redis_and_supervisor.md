@@ -65,9 +65,14 @@ Cek status supervisor
 sudo supervisorctl status
 ```
 
-Restart supervisor
+Reload supervisor (Jika ada perubahan)
 ```bash
 sudo supervisorctl reread
 sudo supervisorctl update
+```
+
+Restart supervisor (Jika ada perubahan)
+```bash
+sudo supervisorctl restart all
 sudo supervisorctl restart [app_name]-worker:*
 ```
